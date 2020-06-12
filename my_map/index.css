@@ -1,0 +1,103 @@
+.balloon_box{
+    width: 300px;
+    height: 400px;
+    padding-right: 10px;
+}
+.header_inside_balloon{
+    background-color: #33C1FF;
+    color: white;
+    padding: 7px;
+    border-radius: 10px;
+}
+.reviews{
+    height: 120px;
+    padding: 5px;
+    margin-top: 5px;
+    overflow-y: auto;
+}
+
+.inputField{
+    width : 100%;
+    box-sizing: border-box;    
+    padding: 7px;
+    margin: 2px;
+    border-radius: 10px;
+    border-color: lightgray;
+    border: 1px solid #abadb3; /* Рамка вокруг текстового поля */
+}
+
+.form_class .inputField:focus {
+     background: #ffe; /* Цвет фона */
+     border: 1px solid #29B0D9; /* Параметры рамки */
+     outline: none;
+   }
+
+.form_class{
+    width: 97%;
+    margin: 0 auto;
+
+}
+
+.my_h4{
+    padding-left: 5px;
+    color: #339CFF;
+}
+
+.send_button{
+    float: right;
+    padding: 7px;
+    border-radius: 10px;
+    background-color: #339CFF;
+    color: white;
+    font-weight: 600;
+    border: none;
+   
+    cursor: pointer;
+}
+
+.send_button:focus{
+    border: 1px solid #29B0D9; /* Параметры рамки */
+    outline: none;
+}
+
+.send_button:disabled{
+    background-color: lightgrey;
+}
+
+.my_icon{
+    padding-right: 5px;
+}
+
+#list_parent{
+    margin-left: 10px!important;
+    /* set to 0 if your not using a list-style-type */
+    padding-left: 10px!important;
+    margin-top: 0px!important;
+    color: #0101DF;
+    font-weight: bold;
+    list-style: none;
+}
+
+.list_child{
+    font-weight: normal;
+    color: black;
+    list-style: none;
+    padding-left: 15px!important;
+}
+
+.span_for_username{
+    color: #339CFF;
+}
+
+.list_child_common_balloon{
+    font-weight: bold;
+    color:#0101DF;
+}
+
+.parent_ul_in_common{
+    list-style: none;
+    padding-left: 20px!important;
+}
+
+
+/*# sourceMappingURL=index.css.map*/
