@@ -1,41 +1,225 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Document</title>
 </head>
+
 <body>
   <div class="wrapper">
-    <div class="full-screen" style="height: 100vh; background-color: green">
-      <nav class="nav" style="height: 123px; border: 4px double black;"></nav>
-      <header class="header" style="height: 197px; width: 511px; border: 4px double black;"></header>
-      <div class="more" style="height: 150px; width: 250px; border: 4px double black;"></div>
-    </div>
-    <div class="tour-list" style="height: 549px; background-color: darkturquoise">
-      <div class="little-header" style="height: 50px; border: 4px double black;">
-        <div>Горящие туры</div>
-      </div>
-      <ul class="tour-list_elements" style="display: flex;"> 
-        <li class="first" style="height: 449px; width: 362px; border: 4px double black;"></li>
-        <li class="second" style="height: 449px; width: 362px; border: 4px double black;"></li>
-        <li class="third" style="height: 449px; width: 362px; border: 4px double black;"></li>
-      </ul>
-      
-    </div>
-    <div class="news" style="height: 600px; background-color: yellow">
-      <div class="little-header" style="height: 50px; border: 4px double black;">
-        <div>Новости и акции</div>
-      </div>
-      <div class="grid" style="height: 449px; border: 4px double black;"></div>
-    </div>
-    <div class="about" style="height: 552px; background-color: red">
-      <div class="picture_behind" style="height: 200px; width: 200px; border: 4px double black;"></div>
-      <div class="picture_in_front" style="height: 200px; width: 200px; border: 4px double black;"></div>
-    </div>
-    <div class="footer" style="height: 92px; background-color: black"></div>
+    <div class="upper_content" style="border: 4px double black; background-color: red;">
+      <header class="header" style="border: 4px double black; background-color: green;display: flex; height: 50px;">
+        <div class="header__block_for_logo" style="border: 4px double black; background-color: yellow; width: 30%;">
+          <a href="/" class="logo">
+            <img src="" alt="" class="logo__pic">
+          </a>
+        </div>
+        <div class="header__block_for_nav" style="border: 4px double black; background-color: yellow; width: 40%;">
+          <nav class="menu">
+            <ul class="menu__list">
+              <li class="menu__item">
+                <a href="#" class="menu__link">Главная</a>
+              </li>
+              <li class="menu__item">
+                <a href="#" class="menu__link">Услуги</a>
+              </li>
+              <li class="menu__item">
+                <a href="#" class="menu__link">Отзывы</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="header__block_for_contacts" style="border: 4px double black; background-color: yellow; width: 30%;">
+          <adress class="contacts">
+            <a href="tel:+78007003030" class="contacts__phone">8 800 700 30 30</a>
+            <div class="contants__workhours">График работы</div>
+          </adress>
+        </div>
+      </header>
+      <main class="main_content" style="border: 4px double black; background-color: green">
+        <div class="main_content__block_for_adv" style="border: 4px double black; background-color: yellow;">
+          <div class="main_content__combining_of_text"
+            style="border: 4px double black; background-color: blue; width: 511px;">
+            <div class="main_content__upper_text"
+              style="border: 4px double black; background-color: pink; height: 250px;">Авторские туры по Азии</div>
+            <div class="main_content__middle_text"
+              style="border: 4px double black; background-color: pink; height: 60px;">Открой для себя Индию</div>
+            <div class="main_content__lower_text"
+              style="border: 4px double black; background-color: pink; height: 510px;">Подробнее</div>
+          </div>
 
+        </div>
+      </main>
+      <div class="list_of_tours" style="border: 4px double black; background-color: green">
+        <h3 class="list_of_tours__header" style="border: 4px double black; background-color: yellow;">
+          Горящие туры
+        </h3>
+        <div class="list_of_tours__block_for_list" style="border: 4px double black; background-color: yellow;">
+          <div class="list_of_tours__list" style="border: 4px double black; background-color: orange;">
+            <div class="list_of_tours__one_element" style="border: 4px double black; background-color: wheat;">
+              <img src="" alt="" class="list_of_tours__image"
+                style="border: 4px double black; background-color: rosybrown;">
+              <div class="list_of_tours__content" style="border: 4px double black; background-color: palegoldenrod;">
+                <h5 class="list_of_tours_header">Тайланд</h5>
+                <div class="list_of_tours_short_description">
+                  <div class="list_of_tours__count_of_nights">
+
+                    <img src="" alt="" class="list_of_tours__icon">
+                    <p class="list_of_tours__icon_description">7-12 ночей</p>
+
+                  </div>
+                  <div class="list_of_tours__breakfast">
+                    <img src="" alt="" class="list_of_tours__icon">
+                    <p class="list_of_tours__icon_description">Завтраки</p>
+                  </div>
+                </div>
+                <p class="list_of_tours__description">Равным образом постоянное обеспечение нашей деятельности позволяет
+                  оценить значение систем массового участия</p>
+                <button class="list_of_tours__watch_button">Смотреть</button>
+              </div>
+
+            </div>
+            <div class="list_of_tours__one_element" style="border: 4px double black; background-color: wheat;">
+              <img src="" alt="" class="list_of_tours__image"
+                style="border: 4px double black; background-color: rosybrown;">
+              <div class="list_of_tours__content" style="border: 4px double black; background-color: palegoldenrod;">
+                <h5 class="list_of_tours_header">Бали</h5>
+                <div class="list_of_tours_short_description">
+                  <div class="list_of_tours__count_of_nights">
+                    <img src="" alt="" class="list_of_tours__icon">
+                    <p class="list_of_tours__icon_description">7-12 ночей</p>
+                  </div>
+                  <div class="list_of_tours__breakfast">
+                    <img src="" alt="" class="list_of_tours__icon">
+                    <p class="list_of_tours__icon_description">Завтраки</p>
+                  </div>
+                </div>
+                <p class="list_of_tours__description">Равным образом постоянное обеспечение нашей деятельности позволяет
+                  оценить значение систем массового участия</p>
+                <button class="list_of_tours__watch_button">Смотреть</button>
+              </div>
+
+            </div>
+            <div class="list_of_tours__one_element" style="border: 4px double black; background-color: wheat;">
+              <img src="" alt="" class="list_of_tours__image"
+                style="border: 4px double black; background-color: rosybrown;">
+              <div class="list_of_tours__content" style="border: 4px double black; background-color: palegoldenrod;">
+                <h5 class="list_of_tours_header">Индонезия</h5>
+                <div class="list_of_tours_short_description">
+                  <div class="list_of_tours__count_of_nights">
+                    <img src="" alt="" class="list_of_tours__icon">
+                    <p class="list_of_tours__icon_description">7-12 ночей</p>
+                  </div>
+                  <div class="list_of_tours__breakfast">
+                    <img src="" alt="" class="list_of_tours__icon">
+                    <p class="list_of_tours__icon_description">Завтраки</p>
+                  </div>
+                </div>
+                <p class="list_of_tours__description">Равным образом постоянное обеспечение нашей деятельности позволяет
+                  оценить значение систем массового участия</p>
+                <button class="list_of_tours__watch_button">Смотреть</button>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <div class="lower_content" style="border: 4px double black; background-color: red">
+      <div class="news" style="border: 4px double black; background-color: green">
+        <h3 class="news__header" style="border: 4px double black; background-color: yellow; height: 50px;">Новости и
+          акции</h3>
+        <div class="news__content" style="border: 4px double black; background-color: yellow;">
+          <div class="news__first_two" style="border: 4px double black; background-color: blue; height: 450px;">
+            <div class="news__sela">
+              <img src="" alt="" class="news__picture">
+              <div class="news__text_on_the_picture">
+                <p class="news__text_on_the_picture_first">Декабрь 2019</p>
+                <h5 class="news_text_on_the_picture_second">Дешевые путевки на новый год!</h5>
+                <p class="news__text_on_the_picture_third">Проведи Новый год в Тайланде</p>
+              </div>
+            </div>
+            <div class="news__sela">
+              <img src="" alt="" class="news__picture">
+              <div class="news__text_on_the_picture">
+                <p class="news__text_on_the_picture_first">Декабрь 2019</p>
+                <h5 class="news_text_on_the_picture_second">Акция для серфенгистов!</h5>
+                <p class="news__text_on_the_picture_third">В сезон больших волн скидка на путевку в Тайланд на остров
+                  серфингистов. Удачного пути!</p>
+              </div>
+            </div>
+          </div>
+          <div class="news__pagination" style="border: 4px double black; background-color: blue; height: 50px;">
+            <div class="news__pagination_inner_block">
+              <p class="news__pagination_inner_block_text">Страница 1 из 7</p>
+              <ul class="news__pagination_inner_block_numbers">
+                <li class="news__pagination_element">1</li>
+                <li class="news__pagination_element">2</li>
+                <li class="news__pagination_element">3</li>
+                <li class="news__pagination_element">4</li>
+                <li class="news__pagination_element">5</li>
+                <li class="news__pagination_element">6</li>
+                <li class="news__pagination_element">7</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="about" style="border: 4px double black; background-color: green">
+        <img class="about__behind_picture" src="" alt=""
+          style="border: 4px double black; background-color: yellow; width: 50%;  height: 200px;">
+        <div class="about__front_picture"
+          style="border: 4px double black; background-color: yellow; width: 50%; height: 200px;">
+          <img src="" alt="" class="about__front_picture">
+          <div class="about__text_on_front_image">
+            <h6 class="about__text_header">О нас</h6>
+            <p class="about__text_middle">Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать
+              несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить
+              навык публичных выступлений в домашних условиях.</p>
+            <button class="list_of_tours__watch_button">Смотреть</button>
+          </div>
+        </div>
+      </div>
+      <div class="footer" style="border: 4px double black; background-color: green; height: 50px;">
+        <div class="footer__block_for_logo" style="border: 4px double black; background-color: yellow; width: 20%;">
+        </div>
+        <div class="footer__block_for_nav" style="border: 4px double black; background-color: yellow; width: 20%;">
+          <nav class="menu">
+            <ul class="menu__list">
+              <li class="menu__item">
+                <a href="#" class="menu__link">Главная</a>
+              </li>
+              <li class="menu__item">
+                <a href="#" class="menu__link">Услуги</a>
+              </li>
+              <li class="menu__item">
+                <a href="#" class="menu__link">Отзывы</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="footer__icon-bar" style="border: 4px double black; background-color: yellow; width: 20%;">
+          <!-- The social media icon bar -->
+          <div class="icon-bar">
+            <a href="#" class="telegram"><i class="fa fa-telegram"></i></a>
+            <a href="#" class="vk"><i class="fa fa-vk"></i></a>
+            <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+            <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
+          </div>
+        </div>
+        <address class="footer__address" style="border: 4px double black; background-color: yellow; width: 20%;">
+          <p class="footer__ring_text">Бесплатный звонок по России</p>
+          <p class="footer__phone">8 800 700 30 30</p>
+        </address>
+      </div>
+    </div>
   </div>
-  
+  </div>
 </body>
+
 </html>
