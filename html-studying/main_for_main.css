@@ -1,0 +1,37 @@
+.main {
+  background-color: black;
+}
+
+.main .container{
+  width: 1141px;
+  margin: 0 auto;
+}
+
+.main_section{
+  height: 700px;
+  color: aliceblue;
+}
+
+.main_section__upper_text{
+  height: 197px;
+  width: 511px;
+  font-size: 72px;
+  margin: 0!important;
+}
+
+.main_section__middle_text{
+  height: 20px;
+  width: 196px;
+  font-size: 18px;
+}
+
+.main_section__lower_text{
+  height: 55px;
+  width: 168px;  
+  font-size: 14px;
+  font-weight: 700;
+  background-color: red;
+  border: none;
+  color: aliceblue;
+  border-radius: 20px;
+}

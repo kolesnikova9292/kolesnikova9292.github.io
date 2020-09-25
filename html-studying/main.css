@@ -10,28 +10,55 @@ body {
 .header .container {
   width: 1141px;
   margin: 0 auto;
-}
-
-.header .logo {}
-
-.menu__list {
   position: relative;
 }
 
-.menu__list :nth-child(1) {
+.header .logo {
+  position: absolute;
+  top: 40px;
+  left: 0px;
+}
+
+.header .container .menu__list {
+  position: relative;
+}
+
+.header .container .menu__list :nth-child(1) {
   position: absolute;
   top: 10px;
   left: 10px;
 }
 
-.menu__list :nth-child(2) {
+.header .container .menu__list :nth-child(2) {
   position: absolute;
   top: 10px;
-  left: 300px;
+  left: 200px;
 }
 
-.menu__list :nth-child(3) {
+.header .container .menu__list :nth-child(3) {
   position: absolute;
   top: 10px;
-  left: 600px;
+  left: 400px;
+}
+
+.header .container .menu{
+  position: absolute;
+  width: 264px;
+  top: 10px;
+  left: 100px;
+}
+
+.header .container .contacts {
+  position: absolute;
+  right: 0px;
+  top: 20px;
+}
+
+.header .container .contacts .contants__workhours {
+  color: white;
+}
+
+.header a{
+  color: aliceblue;
+  text-decoration: none;
 }
