@@ -21,24 +21,25 @@ body {
 
 .header .container .menu__list {
   position: relative;
+  font-size: 14px;
 }
 
 .header .container .menu__list :nth-child(1) {
   position: absolute;
-  top: 10px;
-  left: 10px;
+  top: 15px;
+  left: 32px;
 }
 
 .header .container .menu__list :nth-child(2) {
   position: absolute;
-  top: 10px;
-  left: 200px;
+  top: 15px;
+  left: 140px;
 }
 
 .header .container .menu__list :nth-child(3) {
   position: absolute;
-  top: 10px;
-  left: 400px;
+  top: 15px;
+  left: 240px;
 }
 
 .header .container .menu{

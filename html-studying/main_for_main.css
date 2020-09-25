@@ -9,13 +9,14 @@
 
 .main_section{
   height: 700px;
-  color: aliceblue;
+  color: #FFFFFF;
 }
 
 .main_section__upper_text{
   height: 197px;
   width: 511px;
   font-size: 72px;
+  font-weight: 700;
   margin: 0!important;
 }
 
