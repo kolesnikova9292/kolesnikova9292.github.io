@@ -8,8 +8,9 @@
 }
 
 .main_section{
-  height: 700px;
+  height: 650px;
   color: #FFFFFF;
+  position: relative;
 }
 
 .main_section__upper_text{
@@ -18,12 +19,17 @@
   font-size: 72px;
   font-weight: 700;
   margin: 0!important;
+  position: absolute;
+  top: 85px;
 }
 
 .main_section__middle_text{
   height: 20px;
   width: 196px;
   font-size: 18px;
+  margin: 0!important;
+  position: absolute;
+  top: 310px;
 }
 
 .main_section__lower_text{
@@ -33,6 +39,64 @@
   font-weight: 700;
   background-color: red;
   border: none;
-  color: aliceblue;
-  border-radius: 20px;
+  border-radius: 30px;
+  margin: 0!important;
+  position: absolute;
+  top: 364px;
 }
+
+.last_minute_tours{
+  height: 1140px;
+}
+
+.last_minute_tours__mail_header{
+  color: #FFFFFF;
+  font-weight: bold;
+  font-size: 36px;
+  margin-block-start: 0!important;
+  margin-block-end: 0!important;
+  margin: 15px 0!important;
+}
+
+.last_minute_tours__header{
+  font-weight: bold;
+  font-size: 24px;
+  margin-block-start: 0!important;
+  margin-block-end: 0!important;
+  margin: 15px 0!important;
+}
+
+.last_minute_tours__header .frame{
+  position: relative;
+  top: 2px;
+}
+
+.last_minute_tours__one_element{
+  height: 449px;
+  width: 362px;
+  background-color: #FFFFFF;
+  color: black;
+}
+
+.last_minute_tours__block_for_list{
+    position: relative;  
+    padding-top: 32px;
+}
+
+.last_minute_tours__one_element:nth-child(1){
+  position: absolute;
+}
+
+.last_minute_tours__one_element:nth-child(2){
+  position: absolute;
+  left: 387px;
+}
+
+.last_minute_tours__one_element:nth-child(3){
+  position: absolute;
+  left: 775px;
+}
+
+
+
+

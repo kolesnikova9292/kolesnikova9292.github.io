@@ -53,10 +53,28 @@ body {
   position: absolute;
   right: 0px;
   top: 20px;
+  color: white;
+  width: 191px;
+  
+  
 }
 
 .header .container .contacts .contants__workhours {
-  color: white;
+  font-size: 13px;
+  position: absolute;
+  width: 97px;
+  height: 20px;
+  top: 35px;
+  right: 0;
+}
+
+.header .container .contacts .contacts__phone {
+  font-size: 26px;
+  position: absolute;
+  height: 35px;
+  top: 18px;
+  
+  
 }
 
 .header a{
