@@ -1,3 +1,37 @@
-body{
+body {
   font-family: 'Open Sans', sans-serif;
+}
+
+.header {
+  background-color: black;
+  height: 123.36px;
+}
+
+.header .container {
+  width: 1141px;
+  margin: 0 auto;
+}
+
+.header .logo {}
+
+.menu__list {
+  position: relative;
+}
+
+.menu__list :nth-child(1) {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.menu__list :nth-child(2) {
+  position: absolute;
+  top: 10px;
+  left: 300px;
+}
+
+.menu__list :nth-child(3) {
+  position: absolute;
+  top: 10px;
+  left: 600px;
 }
