@@ -2,101 +2,208 @@
   background-color: black;
 }
 
-.main .container{
+.main .container {
   width: 1141px;
   margin: 0 auto;
 }
 
-.main_section{
+.main_section {
   height: 650px;
-  color: #FFFFFF;
+  color: #ffffff;
   position: relative;
 }
 
-.main_section__upper_text{
+.main_section__upper_text {
   height: 197px;
   width: 511px;
   font-size: 72px;
   font-weight: 700;
-  margin: 0!important;
+  margin: 0 !important;
   position: absolute;
   top: 85px;
 }
 
-.main_section__middle_text{
+.main_section__middle_text {
   height: 20px;
   width: 196px;
   font-size: 18px;
-  margin: 0!important;
+  margin: 0 !important;
   position: absolute;
   top: 310px;
 }
 
-.main_section__lower_text{
+.main_section__lower_text {
   height: 55px;
-  width: 168px;  
+  width: 168px;
   font-size: 14px;
   font-weight: 700;
   background-color: red;
   border: none;
   border-radius: 30px;
-  margin: 0!important;
+  margin: 0 !important;
   position: absolute;
   top: 364px;
 }
 
-.last_minute_tours{
-  height: 1140px;
+.last_minute_tours {
+  height: 549px;
 }
 
-.last_minute_tours__mail_header{
-  color: #FFFFFF;
+.last_minute_tours__mail_header {
+  color: #ffffff;
   font-weight: bold;
   font-size: 36px;
-  margin-block-start: 0!important;
-  margin-block-end: 0!important;
-  margin: 15px 0!important;
+  margin-block-start: 0 !important;
+  margin-block-end: 0 !important;
+  margin: 15px 0 !important;
 }
 
-.last_minute_tours__header{
+.last_minute_tours__header {
   font-weight: bold;
   font-size: 24px;
-  margin-block-start: 0!important;
-  margin-block-end: 0!important;
-  margin: 15px 0!important;
+  margin: 15px 10px !important;
 }
 
-.last_minute_tours__header .frame{
+.last_minute_tours__header .frame {
   position: relative;
   top: 2px;
 }
 
-.last_minute_tours__one_element{
+.last_minute_tours__one_element {
   height: 449px;
   width: 362px;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   color: black;
 }
 
-.last_minute_tours__block_for_list{
-    position: relative;  
-    padding-top: 32px;
+.last_minute_tours__block_for_list {
+  position: relative;
+  padding-top: 32px;
 }
 
-.last_minute_tours__one_element:nth-child(1){
+.last_minute_tours__one_element:nth-child(1) {
   position: absolute;
 }
 
-.last_minute_tours__one_element:nth-child(2){
+.last_minute_tours__one_element:nth-child(2) {
   position: absolute;
   left: 387px;
 }
 
-.last_minute_tours__one_element:nth-child(3){
+.last_minute_tours__one_element:nth-child(3) {
   position: absolute;
   left: 775px;
 }
 
+.last_minute_tours__short_description {
+  width: 271px;
+  height: 26px;
+  position: relative;
+}
 
+.last_minute_tours__count_of_nights {
+  position: absolute;
+  left: 30px;
+}
 
+.last_minute_tours__breakfast {
+  position: absolute;
+  left: 200px;
+}
 
+.last_minute_tours__icon {
+  position: absolute;
+  left: 10px;
+}
+
+.last_minute_tours__icon_description {
+  position: absolute;
+  color: #666666;
+  margin: 0 !important;
+  left: 50px;
+  width: 90px;
+  height: 22px;
+  font-size: 16px;
+}
+
+.last_minute_tours__description {
+  font-size: 14px;
+  color: #303030;
+  padding: 10px 10px;
+}
+
+.watch_button {
+  height: 55px;
+  width: 135px;
+  font-size: 14px;
+  font-weight: bold;
+  border: 1px red solid;
+  border-radius: 30px;
+  background-color: white;
+  color: red;
+  margin: 0 20px;
+}
+
+.watch_button.active {
+  background-color: red;
+  color: white;
+}
+
+.news {
+  margin-top: 127px;
+  height: 600px;
+}
+
+.news__header {
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 36px;
+  margin-block-start: 0 !important;
+  margin-block-end: 0 !important;
+}
+
+.news__first_two {
+  position: relative;
+  height: 394px;
+}
+
+.news__sela:nth-child(1) {
+  position: absolute;
+  left: 0px;
+}
+
+.news__sela:nth-child(2) {
+  position: absolute;
+  left: 570px;
+}
+
+.news__text_on_the_picture {
+  position: absolute;
+  top: 0px;
+}
+
+.pagination_inner_block {
+  color: white;
+  font-size: 16px;
+  position: relative;
+  width: 375px;
+  height: 53px;
+  margin: 0 auto;
+}
+
+.pagination_inner_block_text {
+  width: 125px;
+  height: 20px;
+}
+
+.pagination_element {
+  display: inline-block;
+  margin: 0px 5px;
+}
+
+.pagination_inner_block_numbers {
+  position: absolute;
+  top: 0px;
+  left: 140px;
+  margin: 0 !important;
+}
