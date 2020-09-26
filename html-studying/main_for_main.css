@@ -1,5 +1,6 @@
 .main {
   background-color: black;
+  padding-bottom: 55px;
 }
 
 .main .container {
@@ -61,7 +62,8 @@
 .last_minute_tours__header {
   font-weight: bold;
   font-size: 24px;
-  margin: 15px 10px !important;
+  margin: 29px 20px !important;
+  margin-bottom: 21px !important;
 }
 
 .last_minute_tours__header .frame {
@@ -74,11 +76,12 @@
   width: 362px;
   background-color: #ffffff;
   color: black;
+  border-radius: 5px;
 }
 
 .last_minute_tours__block_for_list {
   position: relative;
-  padding-top: 32px;
+  padding-top: 35px;
 }
 
 .last_minute_tours__one_element:nth-child(1) {
@@ -96,19 +99,22 @@
 }
 
 .last_minute_tours__short_description {
-  width: 271px;
   height: 26px;
   position: relative;
 }
 
 .last_minute_tours__count_of_nights {
   position: absolute;
-  left: 30px;
+  left: 18px;
 }
 
 .last_minute_tours__breakfast {
   position: absolute;
-  left: 200px;
+  left: 170px;
+}
+
+.breakfast_label {
+  left: 55px !important;
 }
 
 .last_minute_tours__icon {
@@ -120,7 +126,8 @@
   position: absolute;
   color: #666666;
   margin: 0 !important;
-  left: 50px;
+  left: 46px;
+  top: 3px;
   width: 90px;
   height: 22px;
   font-size: 16px;
@@ -129,7 +136,7 @@
 .last_minute_tours__description {
   font-size: 14px;
   color: #303030;
-  padding: 10px 10px;
+  padding: 10px 19px;
 }
 
 .watch_button {
@@ -142,6 +149,9 @@
   background-color: white;
   color: red;
   margin: 0 20px;
+  position: absolute;
+  bottom: 24px;
+  left: 5px;
 }
 
 .watch_button.active {
@@ -152,6 +162,7 @@
 .news {
   margin-top: 127px;
   height: 600px;
+  margin-bottom: 120px;
 }
 
 .news__header {
@@ -160,11 +171,13 @@
   font-size: 36px;
   margin-block-start: 0 !important;
   margin-block-end: 0 !important;
+  padding-bottom: 48px;
 }
 
 .news__first_two {
   position: relative;
   height: 394px;
+  margin-bottom: 40px;
 }
 
 .news__sela:nth-child(1) {
@@ -174,12 +187,34 @@
 
 .news__sela:nth-child(2) {
   position: absolute;
-  left: 570px;
+  right: 0px;
 }
 
 .news__text_on_the_picture {
   position: absolute;
-  top: 0px;
+  bottom: 33px;
+  left: 30px;
+  color: white;
+}
+
+.news__text_on_the_picture_first {
+  font-size: 14px;
+}
+
+.news__text_on_the_picture_second {
+  font-weight: bold;
+  font-size: 24px;
+  margin-top: 10px !important;
+  margin-bottom: 0px !important;
+}
+
+.news__text_on_the_picture_third {
+  font-size: 16px;
+  margin-top: 3px;
+}
+
+.block_in_right_side {
+  bottom: 12px;
 }
 
 .pagination_inner_block {
@@ -194,16 +229,126 @@
 .pagination_inner_block_text {
   width: 125px;
   height: 20px;
+  position: absolute;
 }
 
 .pagination_element {
   display: inline-block;
-  margin: 0px 5px;
+  margin: 0px 8px;
+}
+
+.pagination_element:nth-child(1) {
+  position: relative;
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
+}
+
+.pagination_element__ellips {
+  position: absolute;
+  top: 10px;
+  left: 0px;
+}
+
+.pagination_element__near_ellips {
+  position: absolute;
+  top: 14px;
+  left: 11px;
+  color: red;
 }
 
 .pagination_inner_block_numbers {
   position: absolute;
   top: 0px;
-  left: 140px;
+  left: 100px;
   margin: 0 !important;
+  font-weight: bold;
+}
+
+.about {
+  height: 552px;
+  position: relative;
+}
+
+.about__front_picture {
+  position: absolute;
+  right: 0px;
+  top: 93px;
+}
+
+.about__text_on_front_image {
+  position: absolute;
+  top: 57px;
+  left: 80px;
+}
+
+.about__text_header {
+  font-weight: bold;
+  font-size: 36px;
+  margin: 10px 0px !important;
+}
+
+.about__text_middle {
+  font-size: 16px;
+  margin-top: 35px;
+  margin-bottom: 0 !important;
+  width: 502px;
+  height: 232px;
+  line-height: 1.8;
+}
+
+.social__icon_item {
+  display: inline-block;
+}
+
+.social__icon_bar {
+  position: absolute;
+  right: 300px;
+  top: 40px;
+}
+
+.contacts__footer {
+  position: absolute;
+  top: 40px;
+  right: 0px;
+  color: white;
+  width: 191px;
+  height: 70px;
+}
+
+.contants__workhours__footer {
+  font-size: 11px;
+  position: absolute;
+  margin: 0 !important;
+  width: 163px;
+  height: 20px;
+  top: 10px;
+  right: 0px;
+  color: #9a9a9a;
+}
+
+.contacts__phone__footer {
+  font-size: 26px;
+  position: absolute;
+  width: 191px;
+  height: 20px;
+  top: 20px;
+}
+
+.about_block__button {
+  margin: 0 0;
+  bottom: 0px;
+  width: 164px;
+}
+
+footer .container {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.outer_round_icon {
+  color: gray;
+}
+
+.inner_content_of_icon {
+  color: black;
 }

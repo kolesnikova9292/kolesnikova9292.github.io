@@ -5,6 +5,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="./main.css">
   <link rel="stylesheet" href="./main_for_main.css">
   <title>Document</title>
@@ -66,8 +67,8 @@
 
                   </div>
                   <div class="last_minute_tours__breakfast">
-                    <img src="./img/meal.png" alt="" class="last_minute_tours__icon">
-                    <p class="last_minute_tours__icon_description">Завтраки</p>
+                    <img src="./img/meal.png" alt="Завтраки" class="last_minute_tours__icon">
+                    <p class="last_minute_tours__icon_description breakfast_label">Завтраки</p>
                   </div>
                 </div>
                 <p class="last_minute_tours__description">Равным образом постоянное обеспечение нашей деятельности
@@ -88,7 +89,7 @@
                   </div>
                   <div class="last_minute_tours__breakfast">
                     <img src="./img/meal.png" alt="" class="last_minute_tours__icon">
-                    <p class="last_minute_tours__icon_description">Завтраки</p>
+                    <p class="last_minute_tours__icon_description breakfast_label">Завтраки</p>
                   </div>
                 </div>
                 <p class="last_minute_tours__description">Равным образом постоянное обеспечение нашей деятельности
@@ -109,7 +110,7 @@
                   </div>
                   <div class="last_minute_tours__breakfast">
                     <img src="./img/meal.png" alt="" class="last_minute_tours__icon">
-                    <p class="last_minute_tours__icon_description">Завтраки</p>
+                    <p class="last_minute_tours__icon_description breakfast_label">Завтраки</p>
                   </div>
                 </div>
                 <p class="last_minute_tours__description">Равным образом постоянное обеспечение нашей деятельности
@@ -139,7 +140,7 @@
               </div>
               <div class="news__sela">
                 <img src="./img/surfer.png" alt="" class="news__picture">
-                <div class="news__text_on_the_picture">
+                <div class="news__text_on_the_picture block_in_right_side">
                   <p class="news__text_on_the_picture_first">Декабрь 2019</p>
                   <h5 class="news__text_on_the_picture_second">Акция для серфенгистов!</h5>
                   <p class="news__text_on_the_picture_third">В сезон больших волн скидка на путевку в Тайланд на остров
@@ -151,7 +152,10 @@
               <div class="pagination_inner_block">
                 <p class="pagination_inner_block_text">Страница 1 из 7</p>
                 <ul class="pagination_inner_block_numbers">
-                  <li class="pagination_element">1</li>
+                  <li class="pagination_element">
+                    <img src="./img/ellipse.png" alt="" class="pagination_element__ellips"><span
+                      class="pagination_element__near_ellips">
+                      1</span></li>
                   <li class="pagination_element">2</li>
                   <li class="pagination_element">3</li>
                   <li class="pagination_element">4</li>
@@ -163,29 +167,27 @@
             </div>
           </div>
         </section>
-        <section class="about" style="border: 4px double black; background-color: green">
-          <img class="about__behind_picture" src="" alt=""
-            style="border: 4px double black; background-color: yellow; width: 50%;  height: 200px;">
-          <div class="about__front_picture"
-            style="border: 4px double black; background-color: yellow; width: 50%; height: 200px;">
-            <img src="" alt="" class="about__front_picture">
+        <section class="about">
+          <img class="about__behind_picture" src="./img/gates.png" alt="">
+          <div class="about__front_picture">
+            <img src="./img/mountains.png" alt="" class="about__front_picture__image">
             <div class="about__text_on_front_image">
               <h6 class="about__text_header">О нас</h6>
               <p class="about__text_middle">Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать
                 несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить
                 навык публичных выступлений в домашних условиях.</p>
-              <button class="watch_button">Смотреть</button>
+              <button class="watch_button active about_block__button">ПОДРОБНЕЕ</button>
             </div>
           </div>
         </section>
       </div>
     </main>
-    <footer style="border: 4px double black; background-color: green; height: 50px;">
+    <footer class="header">
       <div class="container">
-        <a href="/" class="logo" style="border: 4px double black; background-color: yellow; width: 30%;">
-          <img src="" alt="" class="logo__pic">
+        <a href="/" class="logo">
+          <img src="./img/лого.svg" alt="" class="logo__pic">
         </a>
-        <nav class="menu" style="border: 4px double black; background-color: yellow; width: 40%;">
+        <nav class="menu">
           <ul class="menu__list">
             <li class="menu__item">
               <a href="#" class="menu__link">Главная</a>
@@ -199,22 +201,48 @@
           </ul>
         </nav>
         <!-- The social media icon bar -->
-        <ul class="social__icon_bar" style="border: 4px double black; background-color: yellow; width: 20%;">
-          <li class="social__icon_item"><a href="#" class="telegram"><i class="fa fa-telegram"></i></a></li>
-          <li class="social__icon_item"><a href="#" class="vk"><i class="fa fa-vk"></i></a></li>
-          <li class="social__icon_item"><a href="#" class="facebook"><i class="fa fa-facebook"></i></a></li>
-          <li class="social__icon_item"><a href="#" class="instagram"><i class="fa fa-instagram"></i></a></li>
+        <ul class="social__icon_bar">
+          <li class="social__icon_item">
+            <a href="#" class="telegram">
+              <span class="fa-stack fa-1x">
+                <i class="fa fa-telegram fa-stack-2x outer_round_icon" aria-hidden="false"></i>
+              </span>
+            </a>
+          </li>
+          <li class="social__icon_item">
+            <a href="#" class="telegram">
+              <span class="fa-stack fa-1x">
+                <i class="fa fa-circle fa-stack-2x outer_round_icon"></i>
+                <i class="fa fa-vk fa-stack-1x inner_content_of_icon"></i>
+              </span>
+            </a>
+          </li>
+          <li class="social__icon_item">
+            <a href="#" class="telegram">
+              <span class="fa-stack fa-1x">
+                <i class="fa fa-circle fa-stack-2x outer_round_icon"></i>
+                <i class="fa fa-facebook fa-stack-1x inner_content_of_icon"></i>
+              </span>
+            </a>
+          </li>
+          <li class="social__icon_item">
+            <a href="#" class="telegram">
+              <span class="fa-stack fa-1x">
+                <i class="fa fa-circle fa-stack-2x outer_round_icon"></i>
+                <i class="fa fa-instagram fa-stack-1x inner_content_of_icon"></i>
+              </span>
+            </a>
+          </li>
 
         </ul>
 
-        <adress class="contacts__footer" style="border: 4px double black; background-color: yellow; width: 30%;">
-          <a href="tel:+78007003030" class="contacts__phone__footer">Бесплатный звонок по России</a>
-          <p class="contants__workhours__footer">8 800 700 30 30</p>
+        <adress class="contacts__footer">
+          <p class="contants__workhours__footer">Бесплатный звонок по России</p>
+          <a href="tel:+78007003030" class="contacts__phone__footer">8 800 700 30 30</a>
         </adress>
       </div>
     </footer>
   </div>
-
 </body>
 
 </html>
