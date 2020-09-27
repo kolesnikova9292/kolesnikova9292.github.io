@@ -32,19 +32,6 @@
   top: 310px;
 }
 
-.main_section__lower_text {
-  height: 55px;
-  width: 168px;
-  font-size: 14px;
-  font-weight: 700;
-  background-color: red;
-  border: none;
-  border-radius: 30px;
-  margin: 0 !important;
-  position: absolute;
-  top: 364px;
-}
-
 .last_minute_tours {
   height: 549px;
 }
@@ -112,7 +99,8 @@
   left: 170px;
 }
 
-.breakfast_label {
+.last_minute_tours__breakfast
+  .last_minute_tours__icon_description--breakfast_label {
   left: 55px !important;
 }
 
@@ -153,7 +141,30 @@
   left: 5px;
 }
 
-.watch_button.active {
+.main_section .watch_button--in_hero_part {
+  width: 168px;
+  background-color: red;
+  color: white;
+  position: absolute;
+  top: 364px;
+  margin: 0px 0px;
+}
+
+.watch_button--in_hero_part:hover {
+  background-color: #da0100;
+}
+
+.last_minute_tours__content .watch_button--color-white {
+  background-color: white;
+  color: red;
+}
+
+.watch_button--color-red {
+  background-color: red;
+  color: white;
+}
+
+.watch_button--color-white:hover {
   background-color: red;
   color: white;
 }
@@ -212,7 +223,7 @@
   margin-top: 3px;
 }
 
-.block_in_right_side {
+.news__text_on_the_picture--block_in_right_side {
   bottom: 12px;
 }
 
@@ -220,7 +231,7 @@
   color: white;
   font-size: 16px;
   position: relative;
-  width: 380px;
+  width: 420px;
   height: 53px;
   margin: 0 auto;
 }
@@ -233,46 +244,32 @@
 
 .pagination_element {
   display: inline-block;
-  margin: 0px 10px;
+  margin: 0px 0px;
 }
 
-/* .pagination_element__ellips {
-  position: absolute;
-  top: 10px;
-  left: 0px;
-}
-
-.pagination_element__near_ellips {
-  position: absolute;
-  top: 14px;
-  left: 11px;
-  color: red;
-} */
-
-.pagination_inner_block_numbers::before {
-  content: "";
+.pagination_element__limk {
+  text-decoration: none;
+  color: white;
+  display: block;
   width: 32px;
   height: 32px;
-  display: block;
   border-radius: 50%;
-  position: absolute;
-  top: -4px;
-  left: 36px;
+}
+
+.pagination_element--active .pagination_element__limk {
   background-color: white;
-  cursor: pointer;
+  color: red;
+  text-align: center;
+  line-height: 32px;
+  margin-right: 10px;
 }
 
 .pagination_inner_block_numbers {
   position: absolute;
-  top: 16px;
+  top: 11px;
   left: 110px;
   margin: 0 !important;
   font-weight: bold;
-}
-
-.pagination_element:nth-child(1) {
-  color: red;
-  position: relative;
 }
 
 .about {
@@ -284,6 +281,23 @@
   position: absolute;
   right: 0px;
   top: 93px;
+  background-image: url("./img/mountains.png");
+  background-color: #cccccc;
+  height: 450px;
+  width: 785px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 5px;
+}
+
+.about:before {
+  content: url(./img/gates.png);
+  width: 490px;
+  height: 505px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
 }
 
 .about__text_on_front_image {
@@ -345,7 +359,7 @@
   top: 20px;
 }
 
-.about_block__button {
+.watch_button--about_block {
   margin: 0 0;
   bottom: 0px;
   width: 164px;
@@ -377,7 +391,4 @@ footer .container {
 
 .fa:hover {
   opacity: 0.7;
-}
-
-.fa-facebook {
 }
