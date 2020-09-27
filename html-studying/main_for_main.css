@@ -1,5 +1,4 @@
 .main {
-  background-color: black;
   padding-bottom: 55px;
 }
 
@@ -221,7 +220,7 @@
   color: white;
   font-size: 16px;
   position: relative;
-  width: 375px;
+  width: 380px;
   height: 53px;
   margin: 0 auto;
 }
@@ -234,17 +233,10 @@
 
 .pagination_element {
   display: inline-block;
-  margin: 0px 8px;
+  margin: 0px 10px;
 }
 
-.pagination_element:nth-child(1) {
-  position: relative;
-  width: 32px;
-  height: 32px;
-  cursor: pointer;
-}
-
-.pagination_element__ellips {
+/* .pagination_element__ellips {
   position: absolute;
   top: 10px;
   left: 0px;
@@ -255,14 +247,32 @@
   top: 14px;
   left: 11px;
   color: red;
+} */
+
+.pagination_inner_block_numbers::before {
+  content: "";
+  width: 32px;
+  height: 32px;
+  display: block;
+  border-radius: 50%;
+  position: absolute;
+  top: -4px;
+  left: 36px;
+  background-color: white;
+  cursor: pointer;
 }
 
 .pagination_inner_block_numbers {
   position: absolute;
-  top: 0px;
-  left: 100px;
+  top: 16px;
+  left: 110px;
   margin: 0 !important;
   font-weight: bold;
+}
+
+.pagination_element:nth-child(1) {
+  color: red;
+  position: relative;
 }
 
 .about {
@@ -303,8 +313,8 @@
 
 .social__icon_bar {
   position: absolute;
-  right: 300px;
-  top: 40px;
+  right: 260px;
+  top: 20px;
 }
 
 .contacts__footer {
@@ -351,4 +361,23 @@ footer .container {
 
 .inner_content_of_icon {
   color: black;
+}
+
+.fa {
+  padding: 5px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+  background: #454545;
+  color: black !important;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
 }

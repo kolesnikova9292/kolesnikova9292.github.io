@@ -1,6 +1,7 @@
 html,
 body {
   height: 100%;
+  background-color: #001821;
 }
 
 body {
@@ -9,7 +10,6 @@ body {
 }
 
 .header {
-  background-color: black;
   height: 123.36px;
 }
 
