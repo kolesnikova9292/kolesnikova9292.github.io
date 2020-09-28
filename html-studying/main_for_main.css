@@ -60,11 +60,14 @@
 .last_minute_tours__one_element {
   height: 100%;
   width: 362px;
+  min-height: inherit;
   background-color: #ffffff;
   color: black;
   border-radius: 5px;
-  margin: 0 5px;
+  margin: 0 13px;
 }
+
+
 
 /* .last_minute_tours__block_for_list {
   position: relative;
@@ -81,6 +84,8 @@
 
 .last_minute_tours__one_element:nth-child(1) {
   float: left;
+  margin-left: 0px;
+  padding-left: 0px;
 }
 
 .last_minute_tours__one_element:nth-child(2) {
@@ -89,6 +94,8 @@
 
 .last_minute_tours__one_element:nth-child(3) {
   float: left;
+  margin-right: 0px;
+  padding-right: 0px;
 }
 
 /* .last_minute_tours__one_element:nth-child(1) {
@@ -179,6 +186,8 @@
   background-color: white;
   color: red;
   position: relative;
+  left: 3px;
+  bottom: -6px;
 }
 
 .watch_button--color-red {
@@ -339,7 +348,7 @@
   margin-top: 35px;
   margin-bottom: 0 !important;
   width: 502px;
-  height: 232px;
+  /* height: 232px; */
   line-height: 1.8;
 }
 
@@ -383,7 +392,7 @@
 
 .watch_button--about_block {
   margin: 0 0;
-  bottom: 0px;
+  bottom: -92px;
   width: 164px;
 }
 
