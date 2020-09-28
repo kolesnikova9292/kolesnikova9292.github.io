@@ -26,6 +26,12 @@ body {
   display: block;
 }
 
+.logo:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px grey;
+}
+
+
 .header .container .menu__list {
   position: relative;
   font-size: 14px;
@@ -55,6 +61,11 @@ body {
   width: 264px;
   top: 10px;
   left: 100px;
+}
+
+.menu__link:focus{
+  outline: none;
+  box-shadow: 0 0 0 2px grey;
 }
 
 .header .container .contacts {

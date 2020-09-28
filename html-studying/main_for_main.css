@@ -165,8 +165,13 @@
   color: red;
   margin: 0 20px;
   position: absolute;
-  bottom: 24px;
+  /* bottom: 24px; */
   left: 5px;
+}
+
+.watch_button:focus{
+  outline: none;
+  box-shadow: 0 0 0 2px tomato;
 }
 
 .main_section .watch_button--in_hero_part {
@@ -191,7 +196,7 @@
   color: red;
   position: relative;
   left: 3px;
-  bottom: -6px;
+  /* bottom: -6px; */
   display: block;
   line-height: 50px;
   text-align: center;
@@ -293,6 +298,13 @@
   width: 32px;
   height: 32px;
   border-radius: 50%;
+  line-height: 32px;
+  text-align: center;
+}
+
+.pagination_element__limk:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px grey;
 }
 
 .pagination_element--active .pagination_element__limk {
@@ -362,6 +374,11 @@
 
 .social__icon_item {
   display: inline-block;
+}
+
+.fa:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px grey;
 }
 
 .social__icon_bar {
