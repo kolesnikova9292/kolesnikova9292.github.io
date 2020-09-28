@@ -23,6 +23,7 @@ body {
   position: absolute;
   top: 40px;
   left: 0px;
+  display: block;
 }
 
 .header .container .menu__list {
@@ -69,8 +70,9 @@ body {
   position: absolute;
   width: 97px;
   height: 20px;
-  top: 35px;
+  top: 47px;
   right: 0;
+  text-decoration: underline;
 }
 
 .header .container .contacts .contacts__phone {

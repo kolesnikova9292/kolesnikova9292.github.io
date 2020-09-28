@@ -176,6 +176,10 @@
   position: absolute;
   top: 364px;
   margin: 0px 0px;
+  line-height: 50px;
+  display: block;
+  text-align: center;
+  text-decoration: none;
 }
 
 .watch_button--in_hero_part:hover {
@@ -188,6 +192,10 @@
   position: relative;
   left: 3px;
   bottom: -6px;
+  display: block;
+  line-height: 50px;
+  text-align: center;
+  text-decoration: none;
 }
 
 .watch_button--color-red {
@@ -394,6 +402,10 @@
   margin: 0 0;
   bottom: -92px;
   width: 164px;
+  display: block;
+  line-height: 50px;
+  text-align: center;
+  text-decoration: none;
 }
 
 footer .container {
