@@ -7,6 +7,10 @@
   margin: 0 auto;
 }
 
+.main-page-wrapper{
+  background: url("./img/elephant.png") center top no-repeat, url("./img/2.png") center bottom 145px no-repeat;
+}
+
 .button {
   height: 55px;
   width: 135px;
