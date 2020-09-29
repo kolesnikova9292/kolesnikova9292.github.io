@@ -7,154 +7,7 @@
   margin: 0 auto;
 }
 
-.main_section {
-  height: 650px;
-  color: #ffffff;
-  position: relative;
-}
-
-.main_section__upper_text {
-  height: 197px;
-  width: 511px;
-  font-size: 72px;
-  font-weight: 700;
-  margin: 0 !important;
-  position: absolute;
-  top: 85px;
-}
-
-.main_section__middle_text {
-  height: 20px;
-  width: 196px;
-  font-size: 18px;
-  margin: 0 !important;
-  position: absolute;
-  top: 310px;
-}
-
-.last_minute_tours {
-  min-height: 549px;
-}
-
-.last_minute_tours__mail_header {
-  color: #ffffff;
-  font-weight: bold;
-  font-size: 36px;
-  margin-block-start: 0 !important;
-  margin-block-end: 0 !important;
-  margin: 15px 0 !important;
-}
-
-.last_minute_tours__header {
-  font-weight: bold;
-  font-size: 24px;
-  margin: 29px 20px !important;
-  margin-bottom: 21px !important;
-}
-
-.last_minute_tours__header .frame {
-  position: relative;
-  top: 2px;
-}
-
-.last_minute_tours__one_element {
-  height: 100%;
-  width: 362px;
-  min-height: inherit;
-  background-color: #ffffff;
-  color: black;
-  border-radius: 5px;
-  margin: 0 13px;
-}
-
-
-
-/* .last_minute_tours__block_for_list {
-  position: relative;
-  margin-top: 35px;
-  min-height: 449px;
-} */
-
-.last_minute_tours__block_for_list {
-  position: relative;
-  margin-top: 35px;
-  min-height: 449px;
-  display: inline-block;
-}
-
-.last_minute_tours__one_element:nth-child(1) {
-  float: left;
-  margin-left: 0px;
-  padding-left: 0px;
-}
-
-.last_minute_tours__one_element:nth-child(2) {
-  float: left;
-}
-
-.last_minute_tours__one_element:nth-child(3) {
-  float: left;
-  margin-right: 0px;
-  padding-right: 0px;
-}
-
-/* .last_minute_tours__one_element:nth-child(1) {
-  position: absolute;
-}
-
-.last_minute_tours__one_element:nth-child(2) {
-  position: absolute;
-  left: 387px;
-}
-
-.last_minute_tours__one_element:nth-child(3) {
-  position: absolute;
-  left: 775px;
-} */
-
-.last_minute_tours__short_description {
-  height: 26px;
-  position: relative;
-}
-
-.last_minute_tours__count_of_nights {
-  position: absolute;
-  left: 18px;
-}
-
-.last_minute_tours__breakfast {
-  position: absolute;
-  left: 170px;
-}
-
-.last_minute_tours__breakfast
-  .last_minute_tours__icon_description--breakfast_label {
-  left: 55px !important;
-}
-
-.last_minute_tours__icon {
-  position: absolute;
-  left: 10px;
-}
-
-.last_minute_tours__icon_description {
-  position: absolute;
-  color: #666666;
-  margin: 0 !important;
-  left: 46px;
-  top: 3px;
-  width: 90px;
-  height: 22px;
-  font-size: 16px;
-}
-
-.last_minute_tours__description {
-  font-size: 14px;
-  color: #303030;
-  padding: 10px 19px;
-}
-
-.watch_button {
+.button {
   height: 55px;
   width: 135px;
   font-size: 14px;
@@ -165,11 +18,38 @@
   color: red;
   margin: 0 20px;
   position: absolute;
-  /* bottom: 24px; */
   left: 5px;
 }
 
-.main_section .watch_button--in_hero_part {
+
+/* Секция с большим львом */
+
+.hero {
+  height: 650px;
+  color: #ffffff;
+  position: relative;
+}
+
+.hero__upper-text {
+  height: 197px;
+  width: 511px;
+  font-size: 72px;
+  font-weight: 700;
+  margin: 0 !important;
+  position: absolute;
+  top: 85px;
+}
+
+.hero__middle-text {
+  height: 20px;
+  width: 196px;
+  font-size: 18px;
+  margin: 0 !important;
+  position: absolute;
+  top: 310px;
+}
+
+.hero__button {
   width: 168px;
   background-color: red;
   color: white;
@@ -182,16 +62,120 @@
   text-decoration: none;
 }
 
-.watch_button--in_hero_part:hover {
+.hero__button:hover {
   background-color: #da0100;
 }
 
-.watch_button--in_hero_part:focus{
+.hero__button:focus{
   outline: none;
   background-color: #da0100;
 }
 
-.last_minute_tours__content .watch_button--color-white {
+
+/* Секция с горящими турами */
+
+.last-minute {
+  min-height: 549px;
+}
+
+.header {
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 36px;
+  margin-block-start: 0 !important;
+  margin-block-end: 0 !important;
+  margin: 15px 0 !important;
+}
+
+.frame {
+  position: relative;
+  top: 2px;
+}
+
+.last-minute__tour {
+  height: 100%;
+  width: 362px;
+  min-height: inherit;
+  background-color: #ffffff;
+  color: black;
+  border-radius: 5px;
+  margin: 0 13px;
+}
+
+.last-minute__block-for-list {
+  position: relative;
+  margin-top: 35px;
+  min-height: 449px;
+  display: inline-block;
+}
+
+.last-minute__tour:nth-child(1) {
+  float: left;
+  margin-left: 0px;
+  padding-left: 0px;
+}
+
+.last-minute__tour:nth-child(2) {
+  float: left;
+}
+
+.last-minute__tour:nth-child(3) {
+  float: left;
+  margin-right: 0px;
+  padding-right: 0px;
+}
+
+/* Один горящий тур */
+
+.tour__header{
+  font-weight: bold;
+  font-size: 24px;
+  margin: 29px 20px !important;
+  margin-bottom: 21px !important;
+}
+
+.tour__breakfast-nights {
+  height: 26px;
+  position: relative;
+}
+
+.tour__nights {
+  position: absolute;
+  left: 18px;
+}
+
+.tour__breakfast {
+  position: absolute;
+  left: 170px;
+}
+
+.tour__icon-descr--for-breakfast {
+  left: 55px !important;
+}
+
+.tour__icon {
+  position: absolute;
+  left: 10px;
+}
+
+.tour__icon-descr {
+  position: absolute;
+  color: #666666;
+  margin: 0 !important;
+  left: 46px;
+  top: 3px;
+  width: 90px;
+  height: 22px;
+  font-size: 16px;
+}
+
+.tour__descr {
+  font-size: 14px;
+  color: #303030;
+  padding: 10px 19px;
+}
+
+.watch-button--color-white {
   background-color: white;
   color: red;
   position: relative;
@@ -203,21 +187,24 @@
   text-decoration: none;
 }
 
-.watch_button--color-red {
+.watch-button--color-red {
   background-color: red;
   color: white;
 }
 
-.watch_button--color-white:hover {
+.watch-button--color-white:hover {
   background-color: red;
   color: white;
 }
 
-.watch_button--color-white:focus{
+.watch-button--color-white:focus{
   outline: none;
   background-color: red;
   color: white;
 }
+
+
+/* Секция новости и акции */
 
 .news {
   margin-top: 127px;
@@ -234,7 +221,11 @@
   padding-bottom: 48px;
 }
 
-.news__first_two {
+.news__content{
+  margin-top: 45px;
+}
+
+.news__banners {
   position: relative;
   height: 394px;
   margin-bottom: 40px;
@@ -250,34 +241,34 @@
   right: 0px;
 }
 
-.news__text_on_the_picture {
+.sela__descr {
   position: absolute;
   bottom: 33px;
   left: 30px;
   color: white;
 }
 
-.news__text_on_the_picture_first {
+.descr__upper {
   font-size: 14px;
 }
 
-.news__text_on_the_picture_second {
+.descr__middle {
   font-weight: bold;
   font-size: 24px;
   margin-top: 10px !important;
   margin-bottom: 0px !important;
 }
 
-.news__text_on_the_picture_third {
+.descr__lower {
   font-size: 16px;
   margin-top: 3px;
 }
 
-.news__text_on_the_picture--block_in_right_side {
+.sela__descr--mrg-bottom-12 {
   bottom: 12px;
 }
 
-.pagination_inner_block {
+.pagination__container {
   color: white;
   font-size: 16px;
   position: relative;
@@ -286,18 +277,18 @@
   margin: 0 auto;
 }
 
-.pagination_inner_block_text {
+.pagination__header {
   width: 125px;
   height: 20px;
   position: absolute;
 }
 
-.pagination_element {
+.pagination__element {
   display: inline-block;
   margin: 0px 0px;
 }
 
-.pagination_element__limk {
+.pagination__link {
   text-decoration: none;
   color: white;
   display: block;
@@ -308,13 +299,13 @@
   text-align: center;
 }
 
-.pagination_element__limk:focus {
+.pagination__link:focus {
   outline: none;
   background-color: white;
   color: red;
 }
 
-.pagination_element--active .pagination_element__limk {
+.pagination__element--active .pagination__link {
   background-color: white;
   color: red;
   text-align: center;
@@ -322,7 +313,7 @@
   margin-right: 10px;
 }
 
-.pagination_inner_block_numbers {
+.pagination__list {
   position: absolute;
   top: 11px;
   left: 110px;
@@ -330,12 +321,15 @@
   font-weight: bold;
 }
 
+
+/* Секция О нас */
+
 .about {
   height: 552px;
   position: relative;
 }
 
-.about__front_picture {
+.about__banner {
   position: absolute;
   right: 0px;
   top: 93px;
@@ -358,19 +352,19 @@
   left: 0px;
 }
 
-.about__text_on_front_image {
+.banner__text {
   position: absolute;
   top: 57px;
   left: 80px;
 }
 
-.about__text_header {
+.banner__header {
   font-weight: bold;
   font-size: 36px;
   margin: 10px 0px !important;
 }
 
-.about__text_middle {
+.banner__descr {
   font-size: 16px;
   margin-top: 35px;
   margin-bottom: 0 !important;
@@ -378,6 +372,23 @@
   /* height: 232px; */
   line-height: 1.8;
 }
+
+.watch-button--about_block {
+  margin: 0 0;
+  bottom: -92px;
+  width: 164px;
+  display: block;
+  line-height: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.watch-button--about_block:focus{
+  outline: none;
+  background-color: #da0100;
+}
+
+/* Секция футера */
 
 .social__icon_item {
   display: inline-block;
@@ -424,21 +435,6 @@
 
 .contacts__phone__footer:focus {
   outline: none;
-}
-
-.watch_button--about_block {
-  margin: 0 0;
-  bottom: -92px;
-  width: 164px;
-  display: block;
-  line-height: 50px;
-  text-align: center;
-  text-decoration: none;
-}
-
-.watch_button--about_block:focus{
-  outline: none;
-  background-color: #da0100;
 }
 
 footer .container {

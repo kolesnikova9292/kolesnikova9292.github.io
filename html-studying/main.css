@@ -9,17 +9,17 @@ body {
   margin: 0px !important;
 }
 
-.header {
+.header-block {
   height: 123.36px;
 }
 
-.header .container {
+.header-block .container {
   width: 1141px;
   margin: 0 auto;
   position: relative;
 }
 
-.header .logo {
+.header-block .logo {
   position: absolute;
   top: 40px;
   left: 0px;
@@ -31,31 +31,31 @@ body {
 }
 
 
-.header .container .menu__list {
+.header-block .container .menu__list {
   position: relative;
   font-size: 14px;
   list-style: none;
 }
 
-.header .container .menu__list :nth-child(1) {
+.header-block .container .menu__list :nth-child(1) {
   position: absolute;
   top: 15px;
   left: 32px;
 }
 
-.header .container .menu__list :nth-child(2) {
+.header-block .container .menu__list :nth-child(2) {
   position: absolute;
   top: 15px;
   left: 140px;
 }
 
-.header .container .menu__list :nth-child(3) {
+.header-block .container .menu__list :nth-child(3) {
   position: absolute;
   top: 15px;
   left: 240px;
 }
 
-.header .container .menu {
+.header-block .container .menu {
   position: absolute;
   width: 264px;
   top: 10px;
@@ -71,7 +71,7 @@ body {
   color: red;
 }
 
-.header .container .contacts {
+.header-block .container .contacts {
   position: absolute;
   right: 0px;
   top: 20px;
@@ -79,7 +79,7 @@ body {
   width: 191px;
 }
 
-.header .container .contacts .contants__workhours {
+.header-block .container .contacts .contants__workhours {
   font-size: 13px;
   position: absolute;
   width: 97px;
@@ -89,18 +89,18 @@ body {
   text-decoration: underline;
 }
 
-.header .container .contacts .contacts__phone {
+.header-block .container .contacts .contacts__phone {
   font-size: 26px;
   position: absolute;
   height: 35px;
   top: 18px;
 }
 
-.header .container .contacts .contacts__phone:focus {
+.header-block .container .contacts .contacts__phone:focus {
   outline: none;
 }
 
-.header a {
+.header-block a {
   color: aliceblue;
   text-decoration: none;
 }
