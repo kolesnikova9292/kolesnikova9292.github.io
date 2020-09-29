@@ -169,11 +169,6 @@
   left: 5px;
 }
 
-.watch_button:focus{
-  outline: none;
-  box-shadow: 0 0 0 2px tomato;
-}
-
 .main_section .watch_button--in_hero_part {
   width: 168px;
   background-color: red;
@@ -188,6 +183,11 @@
 }
 
 .watch_button--in_hero_part:hover {
+  background-color: #da0100;
+}
+
+.watch_button--in_hero_part:focus{
+  outline: none;
   background-color: #da0100;
 }
 
@@ -209,6 +209,12 @@
 }
 
 .watch_button--color-white:hover {
+  background-color: red;
+  color: white;
+}
+
+.watch_button--color-white:focus{
+  outline: none;
   background-color: red;
   color: white;
 }
@@ -304,7 +310,8 @@
 
 .pagination_element__limk:focus {
   outline: none;
-  box-shadow: 0 0 0 2px grey;
+  background-color: white;
+  color: red;
 }
 
 .pagination_element--active .pagination_element__limk {
@@ -378,7 +385,7 @@
 
 .fa:focus {
   outline: none;
-  box-shadow: 0 0 0 2px grey;
+  opacity: 0.7;
 }
 
 .social__icon_bar {
@@ -415,6 +422,10 @@
   top: 20px;
 }
 
+.contacts__phone__footer:focus {
+  outline: none;
+}
+
 .watch_button--about_block {
   margin: 0 0;
   bottom: -92px;
@@ -423,6 +434,11 @@
   line-height: 50px;
   text-align: center;
   text-decoration: none;
+}
+
+.watch_button--about_block:focus{
+  outline: none;
+  background-color: #da0100;
 }
 
 footer .container {

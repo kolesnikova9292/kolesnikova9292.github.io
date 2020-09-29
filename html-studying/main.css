@@ -28,7 +28,6 @@ body {
 
 .logo:focus {
   outline: none;
-  box-shadow: 0 0 0 2px grey;
 }
 
 
@@ -63,9 +62,13 @@ body {
   left: 100px;
 }
 
+.menu__link:hover{
+  color: red;
+}
+
 .menu__link:focus{
   outline: none;
-  box-shadow: 0 0 0 2px grey;
+  color: red;
 }
 
 .header .container .contacts {
@@ -91,6 +94,10 @@ body {
   position: absolute;
   height: 35px;
   top: 18px;
+}
+
+.header .container .contacts .contacts__phone:focus {
+  outline: none;
 }
 
 .header a {
