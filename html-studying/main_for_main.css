@@ -21,8 +21,8 @@
   background-color: white;
   color: red;
   margin: 0 20px;
-  position: absolute;
-  left: 5px;
+  /* position: absolute;
+  left: 5px; */
 }
 
 
@@ -31,7 +31,7 @@
 .hero {
   height: 650px;
   color: #ffffff;
-  position: relative;
+  /* position: relative; */
 }
 
 .hero__upper-text {
@@ -40,8 +40,10 @@
   font-size: 72px;
   font-weight: 700;
   margin: 0 !important;
-  position: absolute;
-  top: 85px;
+  padding: 79px 0;
+  padding-bottom: 26px;
+  /* position: absolute;
+  top: 85px; */
 }
 
 .hero__middle-text {
@@ -49,16 +51,17 @@
   width: 196px;
   font-size: 18px;
   margin: 0 !important;
-  position: absolute;
-  top: 310px;
+  padding-bottom: 33px;
+  /* position: absolute;
+  top: 310px; */
 }
 
 .hero__button {
   width: 168px;
   background-color: red;
   color: white;
-  position: absolute;
-  top: 364px;
+  /* position: absolute;
+  top: 364px; */
   margin: 0px 0px;
   line-height: 50px;
   display: block;
@@ -97,36 +100,38 @@
 }
 
 .last-minute__tour {
-  height: 100%;
+  /* height: 100%; */
   width: 362px;
   min-height: inherit;
   background-color: #ffffff;
   color: black;
   border-radius: 5px;
-  margin: 0 13px;
+  /* margin: 0 13px; */
 }
 
 .last-minute__block-for-list {
-  position: relative;
-  margin-top: 35px;
+  /* position: relative; */
+  margin-top: 49px;
   min-height: 449px;
-  display: inline-block;
+  display: flex;
+  justify-content: space-between;
+  /* display: inline-block; */
 }
 
 .last-minute__tour:nth-child(1) {
-  float: left;
+  /* float: left;
   margin-left: 0px;
-  padding-left: 0px;
+  padding-left: 0px; */
 }
 
 .last-minute__tour:nth-child(2) {
-  float: left;
+  /* float: left; */
 }
 
 .last-minute__tour:nth-child(3) {
-  float: left;
+  /* float: left;
   margin-right: 0px;
-  padding-right: 0px;
+  padding-right: 0px; */
 }
 
 /* Один горящий тур */
@@ -140,37 +145,43 @@
 
 .tour__breakfast-nights {
   height: 26px;
-  position: relative;
+  display: flex;
+  justify-content: space-evenly;
+  /* position: relative; */
 }
 
 .tour__nights {
-  position: absolute;
-  left: 18px;
+  display: flex;
+  /* position: absolute;
+  left: 18px; */
 }
 
 .tour__breakfast {
-  position: absolute;
-  left: 170px;
+  display: flex;
+  
+  /* position: absolute;
+  left: 170px; */
 }
 
 .tour__icon-descr--for-breakfast {
-  left: 55px !important;
+  /* left: 55px !important; */
 }
 
 .tour__icon {
-  position: absolute;
-  left: 10px;
+  /* position: absolute;
+  left: 10px; */
 }
 
 .tour__icon-descr {
-  position: absolute;
+  /* position: absolute; */
   color: #666666;
   margin: 0 !important;
-  left: 46px;
-  top: 3px;
+  /* left: 46px;
+  top: 3px; */
   width: 90px;
   height: 22px;
   font-size: 16px;
+  padding: 0 10px;
 }
 
 .tour__descr {
@@ -182,13 +193,14 @@
 .watch-button--color-white {
   background-color: white;
   color: red;
-  position: relative;
-  left: 3px;
+  /* position: relative;
+  left: 3px; */
   /* bottom: -6px; */
   display: block;
   line-height: 50px;
   text-align: center;
   text-decoration: none;
+  margin-bottom: 10px;
 }
 
 .watch-button--color-red {
@@ -230,25 +242,25 @@
 }
 
 .news__banners {
-  position: relative;
+  position: relative; 
   height: 394px;
   margin-bottom: 40px;
 }
 
 .news__sela:nth-child(1) {
   position: absolute;
-  left: 0px;
+  left: 0px; 
 }
 
 .news__sela:nth-child(2) {
-  position: absolute;
-  right: 0px;
+   position: absolute;
+  right: 0px; 
 }
 
 .sela__descr {
   position: absolute;
   bottom: 33px;
-  left: 30px;
+  left: 30px; 
   color: white;
 }
 
@@ -275,7 +287,8 @@
 .pagination__container {
   color: white;
   font-size: 16px;
-  position: relative;
+  /* position: relative; */
+  display: flex;
   width: 420px;
   height: 53px;
   margin: 0 auto;
@@ -284,11 +297,11 @@
 .pagination__header {
   width: 125px;
   height: 20px;
-  position: absolute;
+  /* position: absolute; */
 }
 
 .pagination__element {
-  display: inline-block;
+  /* display: inline-block; */
   margin: 0px 0px;
 }
 
@@ -309,6 +322,12 @@
   color: red;
 }
 
+.pagination__link:hover {
+  outline: none;
+  background-color: white;
+  color: red;
+}
+
 .pagination__element--active .pagination__link {
   background-color: white;
   color: red;
@@ -318,11 +337,14 @@
 }
 
 .pagination__list {
-  position: absolute;
+  /* position: absolute;
   top: 11px;
-  left: 110px;
+  left: 110px; */
   margin: 0 !important;
   font-weight: bold;
+  display: flex;
+  list-style: none;
+  align-items: center;
 }
 
 
@@ -330,7 +352,7 @@
 
 .about {
   height: 552px;
-  position: relative;
+  position: relative; 
 }
 
 .about__banner {
@@ -357,21 +379,27 @@
 }
 
 .banner__text {
-  position: absolute;
+  /* position: absolute;
   top: 57px;
-  left: 80px;
+  left: 80px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  height: 100%;
+  padding: 0px 81px;
 }
 
 .banner__header {
   font-weight: bold;
   font-size: 36px;
-  margin: 10px 0px !important;
+  margin: 71px 0px !important;
+  margin-bottom: 21px!important;
 }
 
 .banner__descr {
   font-size: 16px;
-  margin-top: 35px;
-  margin-bottom: 0 !important;
+  /* margin-top: 35px; */
+  margin-bottom: 50px !important;
   width: 502px;
   /* height: 232px; */
   line-height: 1.8;
@@ -404,37 +432,40 @@
 }
 
 .social__icon_bar {
-  position: absolute;
+  /* position: absolute;
   right: 260px;
-  top: 20px;
+  top: 20px; */
+  margin-left: auto;
+  padding-right: 50px;
 }
 
 .contacts__footer {
-  position: absolute;
+  /* position: absolute;
   top: 40px;
-  right: 0px;
+  right: 0px; */
   color: white;
   width: 191px;
   height: 70px;
+  
 }
 
 .contants__workhours__footer {
   font-size: 11px;
-  position: absolute;
+  /* position: absolute; */
   margin: 0 !important;
   width: 163px;
   height: 20px;
-  top: 10px;
-  right: 0px;
+  /* top: 10px;
+  right: 0px; */
   color: #9a9a9a;
 }
 
 .contacts__phone__footer {
   font-size: 26px;
-  position: absolute;
+  /* position: absolute; */
   width: 191px;
   height: 20px;
-  top: 20px;
+  /* top: 20px; */
 }
 
 .contacts__phone__footer:focus {

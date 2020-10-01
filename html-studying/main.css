@@ -17,12 +17,16 @@ body {
   width: 1141px;
   margin: 0 auto;
   position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  height: 100%;
 }
 
 .header-block .logo {
-  position: absolute;
+  /* position: absolute;
   top: 40px;
-  left: 0px;
+  left: 0px; */
   display: block;
 }
 
@@ -32,34 +36,39 @@ body {
 
 
 .header-block .container .menu__list {
-  position: relative;
+  /* position: relative; */
   font-size: 14px;
   list-style: none;
+  display: flex;
+  align-items: center;
+  padding-inline-start: 0px!important;
+  justify-content: space-evenly;
 }
 
 .header-block .container .menu__list :nth-child(1) {
-  position: absolute;
+  /* position: absolute;
   top: 15px;
-  left: 32px;
+  left: 32px; */
 }
 
 .header-block .container .menu__list :nth-child(2) {
-  position: absolute;
+  /* position: absolute;
   top: 15px;
-  left: 140px;
+  left: 140px; */
 }
 
 .header-block .container .menu__list :nth-child(3) {
-  position: absolute;
+  /* position: absolute;
   top: 15px;
-  left: 240px;
+  left: 240px; */
 }
 
 .header-block .container .menu {
-  position: absolute;
-  width: 264px;
-  top: 10px;
-  left: 100px;
+  /* position: absolute; */
+  width: 407px;
+  
+  /* top: 10px;
+  left: 100px; */
 }
 
 .menu__link:hover{
@@ -72,28 +81,32 @@ body {
 }
 
 .header-block .container .contacts {
-  position: absolute;
+  /* position: absolute;
   right: 0px;
-  top: 20px;
+  top: 20px; */
   color: white;
   width: 191px;
+  margin-left: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
 }
 
 .header-block .container .contacts .contants__workhours {
   font-size: 13px;
-  position: absolute;
+  /* position: absolute; */
   width: 97px;
   height: 20px;
-  top: 47px;
-  right: 0;
+  /* top: 47px;
+  right: 0; */
   text-decoration: underline;
 }
 
 .header-block .container .contacts .contacts__phone {
   font-size: 26px;
-  position: absolute;
+  /* position: absolute; */
   height: 35px;
-  top: 18px;
+  /* top: 18px; */
 }
 
 .header-block .container .contacts .contacts__phone:focus {
