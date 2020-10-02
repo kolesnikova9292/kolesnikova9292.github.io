@@ -50,6 +50,8 @@ p{
   font-weight: 700;
   margin: 10px 0 !important;
   width: 50%;
+  top: -50px;
+  position: relative;
   
   /* padding: 79px 0;
   padding-bottom: 26px; */
@@ -63,6 +65,8 @@ p{
   font-size: 18px;
   margin: 0 !important;
   padding: 20px 0px;
+  top: -50px;
+  position: relative;
   
   /* position: absolute;
   top: 310px; */
@@ -79,7 +83,8 @@ p{
   display: block;
   text-align: center;
   text-decoration: none;
-  
+  top: -50px;
+  position: relative;
 }
 
 .hero__button:hover {
