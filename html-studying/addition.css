@@ -1,0 +1,15 @@
+html, body{
+    height: 100%;
+}
+
+.wrapper{
+    overflow: hidden;
+    min-width: 1188px;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapper__content{
+flex: 1;
+}
