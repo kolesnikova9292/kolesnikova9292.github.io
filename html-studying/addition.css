@@ -1,6 +1,7 @@
 html,
 body {
   height: 100%;
+  background-color: white !important;
 }
 
 .wrapper {
@@ -47,4 +48,154 @@ h6 {
 table {
   border-collapse: collapse;
   border-spacing: 0;
+}
+
+.main--service-page {
+  padding-bottom: 0px !important;
+}
+
+.service-wrapper {
+  background: url("./img/headline-1.png") center top no-repeat;
+}
+
+.service-hero {
+  height: 290px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.service-hero__header {
+  color: white;
+  position: relative;
+  top: -34px;
+  font-weight: 700;
+  font-size: 72px;
+}
+
+.breadcrumbs {
+  /* margin-top: auto; */
+  display: flex;
+  position: relative;
+  top: 80px;
+}
+
+.breadcrumbs__item {
+  padding: 0 3px;
+  font-size: 14px;
+}
+
+.breadcrumbs__item::before {
+  content: "/";
+  color: #9a9a9a;
+}
+
+.breadcrumbs__item:first-child::before {
+  content: "";
+}
+
+.breadcrumbs__href {
+  color: #9a9a9a;
+}
+
+.breadcrumbs--href--active {
+  font-weight: bold;
+}
+
+.places {
+  margin: 80px 0;
+}
+
+.places__item {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 25px 0;
+}
+
+.places__image {
+}
+
+.places__descr {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  width: 55%;
+  min-height: 333px;
+}
+
+.places__header {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.places__text {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.watch-button--service-page {
+  margin: 0 !important;
+  top: 0px !important;
+}
+
+.pagination--service-page {
+  color: black;
+  margin-top: 30px;
+}
+
+.pagination__container--service-page {
+  color: black !important;
+}
+
+.pagination__list--service-page {
+  padding-left: 40px;
+}
+
+.pagination__link--service-page {
+  color: black !important;
+}
+
+.pagination__element--active-red .pagination__link {
+  background-color: red !important;
+  color: white !important;
+}
+
+.pagination__link--service-page:hover {
+  background-color: red !important;
+  color: white !important;
+}
+
+.wrapper--background-grey {
+  background-color: #f4f5f5;
+}
+
+.partners {
+  padding-bottom: 70px;
+}
+
+.partners__header {
+  font-size: 48px;
+  color: black;
+  font-weight: bold;
+  padding: 75px 0;
+}
+
+.partners__images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0px -17px;
+}
+
+.partners__item {
+  display: block;
+  padding: 30px 20px;
+  align-self: center;
+}
+
+.header-block--service-page {
+  background-color: #001821;
 }

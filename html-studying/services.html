@@ -10,51 +10,147 @@
   <link rel="stylesheet" href="./addition.css">
   <link rel="stylesheet" href="./main.css">
   <link rel="stylesheet" href="./main_for_main.css">
-  
+
 
   <title>Document</title>
 </head>
 
 <body>
-  <div class="wrapper">
-      <div class="wrapper__content">
-    <header class="header-block">
-      <div class="container">
-        <a href="/" class="logo">
-          <img src="./img/logo.png" alt="" class="logo__pic">
-        </a>
-        <nav class="menu">
-          <ul class="menu__list">
-            <li class="menu__item">
-              <a href="#" class="menu__link">Главная</a>
-            </li>
-            <li class="menu__item">
-              <a href="#" class="menu__link">Услуги</a>
-            </li>
-            <li class="menu__item">
-              <a href="#" class="menu__link">Отзывы</a>
-            </li>
-          </ul>
-        </nav>
-        <adress class="contacts">
-          <a href="tel:+78007003030" class="contacts__phone">8 800 700 30 30</a>
-          <div class="contants__workhours contacts__dropdown-title">График работы</div>
-          <!-- <p class="contants__workhours">График работы</p> -->
-        </adress>
-      </div>
-    </header>
-    <main class="main">
-      <div class="container">
-       
+  <div class="wrapper service-wrapper">
+    <div class="wrapper__content">
+      <header class="header-block">
+        <div class="container">
+          <a href="/" class="logo">
+            <img src="./img/logo.png" alt="" class="logo__pic">
+          </a>
+          <nav class="menu">
+            <ul class="menu__list">
+              <li class="menu__item">
+                <a href="#" class="menu__link">Главная</a>
+              </li>
+              <li class="menu__item">
+                <a href="#" class="menu__link">Услуги</a>
+              </li>
+              <li class="menu__item">
+                <a href="#" class="menu__link">Отзывы</a>
+              </li>
+            </ul>
+          </nav>
+          <adress class="contacts">
+            <a href="tel:+78007003030" class="contacts__phone">8 800 700 30 30</a>
+            <div class="contants__workhours contacts__dropdown-title">График работы</div>
+            <!-- <p class="contants__workhours">График работы</p> -->
+          </adress>
+        </div>
+      </header>
+      <main class="main main--service-page">
+        <div class="container">
+          <section class="service-hero">
+            <h1 class="service-hero__header">
+              Услуги
+            </h1>
+            <ul class="breadcrumbs">
+              <li class="breadcrumbs__item">
+                <a href="#" class="breadcrumbs__href">Главная</a>
+              </li>
+              <li class="breadcrumbs__item">
+                <a href="#" class="breadcrumbs__href breadcrumbs--href--active">
+                  Услуги</a>
+              </li>
+            </ul>
+          </section>
 
-      
+          <section class="places">
+
+            <article class="places__item">
+              <img src="./img/waterfall.png" alt="" class="places__image">
+              <div class="places__descr">
+                <h2 class="places__header">Водопад Янг-бей</h2>
+                <p class="places__text">Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать
+                  несколько абзацев более
+                  менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык публичных
+                  выступлений в домашних условиях. При создании генератора мы использовали небезизвестный универсальный
+                  код речей</p>
+                <a href=""
+                  class="button hero__button watch-button--color-white watch-button--service-page">ПОДРОБНЕЕ</a>
+              </div>
+
+            </article>
+            <article class="places__item">
+              <img src="./img/monkeys.png" alt="" class="places__image">
+              <div class="places__descr">
+                <h2 class="places__header">Остров обезьян</h2>
+                <p class="places__text">Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать
+                  несколько абзацев более
+                  менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык публичных
+                  выступлений в домашних условиях. При создании генератора мы использовали небезизвестный универсальный
+                  код речей</p>
+                <a href=""
+                  class="button hero__button watch-button--color-white watch-button--service-page">ПОДРОБНЕЕ</a>
+              </div>
+            </article>
+
+            <div class="pagination pagination--service-page">
+              <div class="pagination__container pagination__container--service-page">
+                <p class="pagination__header">Страница 1 из 7</p>
+                <ul class="pagination__list pagination__list--service-page">
+                  <li class="pagination__element pagination__element--active pagination__element--active-red"><a
+                      href="#" class="pagination__link">1</a>
+                  </li>
+                  <li class="pagination__element"><a href="#"
+                      class="pagination__link pagination__link--service-page">2</a></li>
+                  <li class="pagination__element"><a href="#"
+                      class="pagination__link pagination__link--service-page">3</a></li>
+                  <li class="pagination__element"><a href="#"
+                      class="pagination__link pagination__link--service-page">4</a></li>
+                  <li class="pagination__element"><a href="#"
+                      class="pagination__link pagination__link--service-page">5</a></li>
+                  <li class="pagination__element"><a href="#"
+                      class="pagination__link pagination__link--service-page">6</a></li>
+                  <li class="pagination__element"><a href="#"
+                      class="pagination__link pagination__link--service-page">7</a></li>
+                </ul>
+              </div>
+            </div>
+
+          </section>
+
+        </div>
+
+        <div class="wrapper--background-grey">
 
 
+          <div class="container">
+            <section class="partners">
 
-      </div>
-    </main>
-</div>
-    <footer class="header-block">
+              <h2 class="partners__header">
+                Партнеры
+              </h2>
+
+              <div class="partners__images">
+
+                <img src="./img/partners/airbaltic.png" alt="" class="partners__item">
+                <img src="./img/partners/lets-fly.png" alt="" class="partners__item">
+                <img src="./img/partners/lufthansa.png" alt="" class="partners__item">
+                <img src="./img/partners/pegas.png" alt="" class="partners__item">
+                <img src="./img/partners/pegasus.png" alt="" class="partners__item">
+                <img src="./img/partners/pobeda.png" alt="" class="partners__item">
+                <img src="./img/partners/s7.png" alt="" class="partners__item">
+                <img src="./img/partners/ural.png" alt="" class="partners__item">
+
+              </div>
+
+            </section>
+
+          </div>
+
+
+        </div>
+
+
+      </main>
+    </div>
+    <footer class="header-block header-block--service-page">
       <div class="container">
         <a href="/" class="logo">
           <img src="./img/logo.png" alt="" class="logo__pic">
@@ -75,18 +171,25 @@
         <!-- The social media icon bar -->
         <ul class="social__icon_bar">
           <li class="social__icon_item">
-            <a href="#" class="fa fa-telegram"></a>
+            <a href="#" class="social__icon_href">
+              <img src="./img/telegram.png" alt="" class="social__icon_image">
+            </a>
           </li>
           <li class="social__icon_item">
-            <a href="#" class="fa fa-vk"></a>
+            <a href="#" class="social__icon_href">
+              <img src="./img/vk.png" alt="" class="social__icon_image">
+            </a>
           </li>
           <li class="social__icon_item">
-            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="social__icon_href">
+              <img src="./img/f.png" alt="" class="social__icon_image">
+            </a>
           </li>
           <li class="social__icon_item">
-            <a href="#" class="fa fa-instagram"></a>
+            <a href="#" class="social__icon_href">
+              <img src="./img/in.png" alt="" class="social__icon_image">
+            </a>
           </li>
-
         </ul>
         <adress class="contacts__footer">
           <p class="contants__workhours__footer">Бесплатный звонок по России</p>
