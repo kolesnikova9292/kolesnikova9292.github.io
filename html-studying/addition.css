@@ -1,15 +1,50 @@
-html, body{
-    height: 100%;
+html,
+body {
+  height: 100%;
 }
 
-.wrapper{
-    overflow: hidden;
-    min-width: 1188px;
-    min-height: 100%;
-    display: flex;
-    flex-direction: column;
+.wrapper {
+  overflow: hidden;
+  min-width: 1188px;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
-.wrapper__content{
-flex: 1;
+.wrapper__content {
+  flex: 1;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  list-style: none;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  background: transparent;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  font-weight: normal;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
 }
