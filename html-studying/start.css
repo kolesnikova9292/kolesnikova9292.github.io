@@ -30,7 +30,7 @@
 }
 
 
-.wrapper::before  {
+.wrapper::before {
   content: url(./img/shades.png);
   /* width: 490px;
   height: 505px; */
@@ -70,7 +70,7 @@
 .button:hover {
   background-color: orange;
   border: 1px orange solid;
-  
+
 }
 
 

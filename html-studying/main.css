@@ -103,7 +103,7 @@ body {
   position: relative;
 }
 
-.contacts__text{
+.contacts__text {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -111,12 +111,12 @@ body {
   width: 122px;
 }
 
-.contancts__time{
+.contancts__time {
   font-weight: bold;
   font-size: 13px;
 }
 
-.contacts__dinner{
+.contacts__dinner {
   font-weight: normal;
   font-size: 13px;
 }
