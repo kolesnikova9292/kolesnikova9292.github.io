@@ -1,0 +1,292 @@
+.reviews{
+  margin: 90px 0;
+}
+
+.reviews__columns{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 61px;
+}
+
+.reviews__right{
+  display: flex;
+  flex-direction: column;
+width: 49%;
+}
+
+.reviews__left{
+  display: flex;
+  flex-direction: column;
+  width: 49%;
+}
+
+.reviews__item{
+background-color: #f4f5f5;
+margin: 10px 0;
+padding-bottom: 16px;
+}
+
+.reviews__author{
+  display: flex;
+  padding-top: 50px;
+  padding-bottom: 15px;
+  padding-left: 28px;
+}
+
+.reviews__author-name{
+  font-size: 24px;
+  font-weight: bold;
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.reviews__author-name:hover{
+  color: #2e77a4;
+  text-decoration: underline;
+
+}
+
+.reviews__vk-icon{
+  margin-left: 5px;
+}
+
+.reviews__person{
+  padding: 20px 20px;
+  display: flex;
+}
+
+.reviews__header{
+   /*display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left; */
+  /* top: 50%;
+  left: 50%; */
+  margin: auto 0;
+}
+
+.reviews-item__tab{
+  height: 37px;
+  background-color: #b9eae4;
+  text-align: center;
+  line-height: 37px;
+  font-size: 13px;
+  border-radius: 20px;
+  display: inline-block;
+  padding: 0 15px;
+}
+
+.reviews__descr{
+  padding: 20px 30px;
+}
+
+.reviews-desc__header{
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.reviews__text{
+  font-size: 16px;
+  color: #818181;
+  line-height: 1.7;
+  padding: 15px 0px 53px 0px;
+}
+
+.reviews__date{
+  font-size: 14px;
+  font-weight: 600;
+}
+
+
+.container--full-width{
+  width: 100%!important;
+  height: 363px;
+  background: url("./img/Rectangle.png") center top no-repeat;
+  /* display: flex; */
+}
+
+.wrapp__banner-info-block{
+  display: flex;
+  width: 1141px;
+    margin: 0 auto;
+}
+
+.banner__text{
+  display: block;
+  width: 70%;
+ margin: auto;
+ font-size: 48px;
+ font-weight: 700;
+ color: white;
+ padding: 0px 0px;
+ line-height: 1.5;
+}
+
+.outer-div-for-form{
+  background-color: #f4f5f5;
+  min-height: 800px;
+}
+
+.form__header{
+  font-size: 48px;
+  font-weight: 700;
+  padding: 65px 0;
+
+}
+
+.form-upper{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.form-input{
+  display: block;
+  width: 49%;
+  padding: 20px 30px;
+  /* padding-left: 30px; */
+  border: none;
+  font-size: 18px;
+  border-radius: 5px;
+}
+
+.form-input::placeholder {
+  font-size: 18px;
+  color: #666666;
+}
+
+.form-input:hover {
+  padding: 19px 29px;
+  /* padding-left: 29px; */
+  border:solid 1px red; 
+  border-radius: 5px;
+}
+
+.form-input:focus {
+  outline: none;
+  border:solid 1px red; 
+  border-radius: 5px;
+}
+
+.form-textarea{
+  display: block;
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  padding: 27px 30px;
+  /* padding-left: 30px; */
+  margin-bottom: 13px;
+}
+
+.form-textarea:hover {
+  border:solid 1px red; 
+  padding: 26px 29px;
+  border-radius: 5px;
+}
+
+.form-textarea:focus {
+  outline: none;
+  border:solid 1px red; 
+  border-radius: 5px;
+}
+
+.form-textarea::placeholder {
+  font-size: 18px;
+  color: #666666;
+}
+
+.form__tabs-block{
+  display: flex;
+}
+
+.form-tabs__tabs{
+  width: 70%;
+  overflow: hidden;
+  justify-content: space-between;
+  flex-flow: row wrap;
+  margin: 0 auto;
+  display: flex;
+  margin-right: -10px;
+/* display: flex;
+  flex-wrap: wrap;
+  align-content: space-between; */
+
+  /* display: flex; */
+  /* flex-wrap: wrap; */
+  /* flex-flow: row wrap;
+  justify-content: space-between; */
+}
+
+.form-tabs__tabs::after {
+  content: "";
+  flex: auto;
+}
+
+.form__tab{
+  margin: 5px 10px;
+}
+
+
+.form-tabs__question{
+  display: block;
+  width: 40%;
+  font-size: 18px;
+  margin: auto;
+}
+
+
+.form__tab-button{
+  display: block;
+  padding: 5px 15px;
+  border-radius: 20px;
+  background-color: #e7e7e7;
+  cursor: pointer;
+  padding: 12px 13px;
+  font-size: 13px;
+}
+
+.tab__elem{
+  position: absolute;
+  visibility: hidden;
+}
+
+.tab__elem:checked + .form__tab-button{
+background-color: #b9eae4;
+}
+
+.form__buttons{
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 19px;
+}
+
+.button__form{
+  margin: 7px;
+
+  }
+
+.button__form:last-child{
+margin-right: 0px!important;
+}
+
+.button__clean{
+  border: none;
+  background-color: #2b2b2b;
+  color: white;
+  width: 168px;
+}
+
+.button__clean:hover{
+  background-color: #8e8e8e;
+}
+
+.button__send{
+  border: none;
+  background-color: red;
+  color: white;
+  width: 168px;
+}
+
+.button__send:hover{
+  background-color: #f5170e;
+}
