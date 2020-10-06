@@ -41,7 +41,7 @@ body {
   list-style: none;
   display: flex;
   align-items: center;
-  padding-inline-start: 0px!important;
+  padding-inline-start: 0px !important;
   justify-content: space-evenly;
 }
 
@@ -66,16 +66,16 @@ body {
 .header-block .container .menu {
   /* position: absolute; */
   width: 407px;
-  
+
   /* top: 10px;
   left: 100px; */
 }
 
-.menu__link:hover{
+.menu__link:hover {
   color: red;
 }
 
-.menu__link:focus{
+.menu__link:focus {
   outline: none;
   color: red;
 }
@@ -84,7 +84,7 @@ body {
   /* position: absolute;
   right: 0px;
   top: 20px; */
-  color: white;
+  color: #F2F2F2 !important;
   width: 191px;
   margin-left: auto;
   display: flex;
@@ -100,6 +100,64 @@ body {
   /* top: 47px;
   right: 0; */
   text-decoration: underline;
+  position: relative;
+}
+
+.contacts__text{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 122px;
+}
+
+.contancts__time{
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.contacts__dinner{
+  font-weight: normal;
+  font-size: 13px;
+}
+
+
+.header-block .container .contacts .contants__workhours:hover .contacts__dropdown-block {
+  display: block;
+  color: black;
+}
+
+.contacts__dropdown-block:after {
+  content: "";
+  height: 0px;
+  width: 0px;
+  background-color: transparent;
+  position: absolute;
+  top: -38%;
+  left: 57%;
+  border: 15px solid transparent;
+  border-bottom-color: #d0d2d1;
+}
+
+/* .contacts__dropdown-block:after {
+  content: "";
+  height: 10px;
+  width: 100px;
+  background-color: transparent;
+  position: absolute;
+  top: -38%;
+  left: 57%;
+  border: 15px solid transparent;
+  border-bottom-color: yellow;
+} */
+
+.contacts__dropdown-title {
+  color: #b0b7b9;
+  padding-bottom: 20px;
+}
+
+.header-block .container .contacts .contants__workhours:hover .contacts__dropdown-title {
+  color: white;
 }
 
 .header-block .container .contacts .contacts__phone {
@@ -111,6 +169,17 @@ body {
 
 .header-block .container .contacts .contacts__phone:focus {
   outline: none;
+}
+
+.contacts__dropdown-block {
+  height: 75px;
+  width: 160px;
+  background-color: #d0d2d1;
+  position: absolute;
+  top: 170%;
+  right: 0%;
+  display: none;
+  border-radius: 5px;
 }
 
 .header-block a {

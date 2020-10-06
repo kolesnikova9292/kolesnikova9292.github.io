@@ -446,8 +446,62 @@ p {
 /* Секция футера */
 
 .social__icon_item {
-  display: inline-block;
-  margin: 0 4px;
+  display: block;
+  margin: 0 5px;
+}
+
+.social__icon_href{
+  display: block;
+  width: 36px;
+  height: 36px;
+}
+
+.social__icon_href--telegram{
+  
+  background: url("./img/css_sprites.png") -234px -10px;
+}
+
+.social__icon_href--telegram::after{
+  
+}
+
+.social__icon_href--telegram:hover{
+  background: url("./img/css_sprites.png") -290px -10px;
+  
+}
+
+.social__icon_href--vk{
+  background: url("./img/css_sprites.png") -346px -10px;
+
+}
+
+.social__icon_href--vk::after{
+
+}
+
+.social__icon_href--vk:hover{
+  background: url("./img/css_sprites.png") -402px -10px;
+
+}
+
+.social__icon_href--facebook{
+  background: url("./img/css_sprites.png") -10px -10px;
+
+}
+
+.social__icon_href--facebook:hover{
+  background: url("./img/css_sprites.png") -66px -10px;
+
+}
+
+.social__icon_href-insta{
+  background: url("./img/css_sprites.png") -122px -10px;
+
+}
+
+.social__icon_href-insta:hover{
+  background: url("./img/css_sprites.png") -178px -10px;
+
 }
 
 .fa:focus {
@@ -460,7 +514,8 @@ p {
   right: 260px;
   top: 20px; */
   margin-left: auto;
-  padding-right: 64px;
+  padding-right: 72px;
+  display: flex;
 }
 
 .contacts__footer {
